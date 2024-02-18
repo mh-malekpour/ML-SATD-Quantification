@@ -1,0 +1,8 @@
+ML Pipeline Stage,ML TD Type,Weighted Average
+Data Pre,MLKnow,999.4
+Data Acq,CDT,644.6
+Data Pre,Data Conf,591.4
+ML Pipeline Stage,ML TD Type,Weighted Geometric Mean
+Data Acq,CDT,433.4935533
+Data Acq,Proto,424.7959
+Data Pre,Data Conf,214.0300298

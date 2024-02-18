@@ -1,0 +1,104 @@
+Commits Between Start End,Lines of code changed,Project size in KB,Complexity Involved,ML Pipeline Stage,ML TD Type,Weighted Average
+162,115,3960,23,Prediction,MCM,87.6
+4,-17,106266,-7,Data Pre,Data Conf,-8.8
+9,1,17144,0,Evaluation,MLKnow,2.2
+4,-8,34777,-2,Training,MCR,-3.2
+184,-55,263419,-20,Evaluation,Data Conf,6.8
+233,-4,26394,0,Other,DS Configuration,45
+8,-209,181004,-43,Training,Weight Conf,-99.2
+78,35,12950,7,Data Pre,Data Conf,32.4
+92,-86,6575,-12,Modeling,MCC,-20.8
+158,141,14325,43,Data Pre,Data Conf,105.2
+5,-108,14325,-15,Data Pre,MLKnow,-48.2
+450,944,16601,269,Data Acq,Proto,575.2
+10,-129,927,-12,Modeling,UMC ,-54.4
+165,287,61732,35,Training,MDepend,161.8
+165,287,61732,35,Training,MDepend,161.8
+5,2,671967,0,Data Pre,MLKnow,1.8
+6,17,671967,-9,Modeling,Data Conf,4.4
+48,344,3387,160,Training,Data Conf,211.2
+7,-35,108844,-8,Data Pre,Data Conf,-15.8
+457,-44,202539,-11,Modeling,HP Conf,69.4
+315,-15,129089,-6,Training,HP Conf,54.6
+4,-6,10501,-1,Modeling,UMC,-2
+120,29,1982,36,Data Pre,Data Conf,50
+4,7,156108,2,Data Pre,Data Conf,4.4
+8,-131,10730,-8,Data Acq,UMC,-54
+3,2,26579,1,Other,Data Conf,1.8
+3,2,4278,1,Training,Proto,1.8
+10,50,4278,12,Data Acq,DS Configuration,26.8
+199,5,316803,2,Training,Data Conf,42.6
+5,2,60000,0,Data Acq,MDepend,1.8
+157,-13,129194,-12,Other,Data Conf,21.4
+1347,191,28618,36,Data Pre,Data Conf,360.2
+14,17,4278,0,Training,CDT,9.6
+192,0,155681,0,Modeling,MLInter,38.4
+3,15,11692,7,Data Pre,MLKnow,9.4
+46,29,48873,2,Data Pre,MLKnow,21.6
+12,19,33566,6,Data Pre,Data Conf,12.4
+3,1,7683,0,Modeling,UMC,1
+50,-8,2729,0,Data Acq,MCR,6.8
+16,2,57773,0,Data Acq,UMC,4
+76,-226,16880,-72,Data Acq,UMC ,-104
+13,-4,72099,-2,Data Pre,CDT,0.2
+8,7,4352,1,Data Pre,MLKnow,4.8
+3,-1,158367,-1,Data Pre,Data Conf,-0.2
+226,-108,671967,-15,Training,HP Conf,-4
+12,41,2729,24,Data Acq,Proto,28.4
+3,-218,95373,-33,Training,DS Configuration,-99.8
+5,11,199894,5,Data Pre,CDT,7.4
+11,-1,34140,0,Data Pre,UMC ,1.8
+1212,64,17735,1,Data Pre,DS Configuration,268.4
+186,11,364936,0,Modeling,MDepend,41.6
+3,0,483,0,Modeling,MCR,0.6
+5,51,29943,10,Data Acq,Data Conf,25.4
+407,4,11048,1,Modeling,Layer Conf,83.4
+15,-26,154578,-7,Data Pre,MLKnow,-10.2
+13,8,7615,1,Training,HP Conf,6.2
+145,193,16601,41,Data Pre,MDepend,122.6
+8,12,39503,1,Modeling,MCC,6.8
+3,46,153212,4,Data Pre,Data Conf,20.6
+6,-6,341519,0,Data Acq,Data Conf,-1.2
+397,-7,16601,1,Data Pre,MLKnow,77
+7,26,79603,11,Other,DS Configuration,16.2
+1227,477,16601,146,Data Acq,CDT,494.6
+4,-109,341519,-35,Data Acq,MCR,-56.8
+111,42,154578,2,Modeling,UMC,39.8
+59,48,32964,8,Data Pre,MLKnow,34.2
+80,93,4728,12,Training,Layer Conf,58
+156,29,76650,0,Data Pre,UMC,42.8
+131,5,16601,-8,Data Pre,MLKnow,25
+10,-11,74844,-6,Data Pre,MDepend,-4.8
+5,-4,6575,-1,Data Acq,MCM,-1
+80,16,129089,6,Training,MLKnow,24.8
+6,-4,15043,-1,Modeling,MCM,-0.8
+255,-57,185605,-8,Prediction,Data Conf,25
+11,47,9749,18,Data Pre,Data Conf,28.2
+8,0,11048,0,Other,CDT,1.6
+65,106,14034,22,Data Acq,DS Configuration,64.2
+31,-18,97384,-4,Data Pre,Data Conf,-2.6
+10,81,31784,8,Evaluation,UMC,37.6
+5,-454,4532,-115,Data Acq,UMC,-226.6
+78,-109,88529,4,Other,MCM,-26.4
+257,60,129089,1,Evaluation,UMC,75.8
+1000,46,154578,3,Data Pre,DS Configuration,219.6
+51,63,12597,-2,Training,UMC,34.6
+4,-1,9003,7,Modeling,Layer Conf,3.2
+97,-15,53123,-3,Training,DS Configuration,12.2
+139,-11,97384,-3,Data Pre,MCC,22.2
+290,174,8562,23,Training,MLKnow,136.8
+5,14,109156,4,Training,Layer Conf,8.2
+28,32,7687,8,Other,UMC ,21.6
+24,-11,3088,-2,Data Pre,Data Conf,-0.4
+259,54,111490,13,Modeling,UMC,78.6
+13,-14,20185,-3,Data Pre,Proto,-4.2
+5,325,202539,78,Training,MCC,162.2
+6,-5,53123,-2,Data Pre,MLKnow,-1.6
+9,-2,13169,-1,Modeling,Weight Conf,0.6
+750,-16,154578,-3,Data Acq,DS Configuration,142.4
+93,-890,10501,-107,Training,MDepend,-380.2
+4,-36,129089,-8,Training,Weight Conf,-16.8
+7,-41,129089,-14,Training,Data Conf,-20.6
+2520,-41,158367,-1,Data Pre,MLKnow,487.2
+13,-3,7687,-2,Data Acq,DS Configuration,0.6
+113,52,154578,3,Other,MLKnow,44.6

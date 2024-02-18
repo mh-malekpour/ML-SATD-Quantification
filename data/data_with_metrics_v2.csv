@@ -1,0 +1,166 @@
+Dataset ID,Repo Type,Repo Name,Filename,Comment Text,Is TD?,Software TD Type,ML TD Type,ML Pipeline Stage,Project size in KB,Lines of Code Start,Complexity Start,Token Count Start,Lines of Code End,Complexity End,Token Count End,Token count change,Commits Between Start End,Lines of code changed,Project size in KB,Complexity Involved,ML Pipeline Stage,ML TD Type
+aaedcebdc,Tool,microsoft/NimbusML,src/python/nimbusml/pipeline.py,[todo]: this is a bug; predict_proba should not change,Yes,Defect,MCM,Prediction,3960,1721,441,9813,1836,464,10539,726,162,115,3960,23,Prediction,MCM
+aahfiaifg,Tool,RaRe-Technologies/gensim,gensim/corpora/csvcorpus.py,"\""\""\"" || Corpus in CSV format. TODO: still serializes to SVMLight format; feel free to change this. || \""\""\""",Yes,Requirement,Data Conf,Data Pre,106266,54,12,342,37,5,211,-131,4,-17,106266,-7,Data Pre,Data Conf
+aahhdbjej,Tool,raamana/neuropredict,neuropredict/config_neuropredict.py,find out why prefix neg_ is needed,Yes,,MLKnow,Evaluation,17144,165,1,684,166,1,691,7,9,1,17144,0,Evaluation,MLKnow
+aadfibefa,Application,deep-fry/mayo,mayo/task/image/generate.py,FIXME annoying hack for batching different sized shapes;,Yes,Code,MCR,Training,34777,120,20,1055,112,18,981,-74,4,-8,34777,-2,Training,MCR
+aajfadgji,Application,pyannote/pyannote-audio,pyannote/audio/pipeline/speaker_diarization.py,FIXME don't l2_normalize for any metric,Yes,Requirement,Data Conf,Evaluation,263419,180,29,1274,125,9,544,-730,184,-55,263419,-20,Evaluation,Data Conf
+aaaedbhaj,Application,roscisz/TensorHive,tensorhive/controllers/reservation/update_reservation_controller.py,FIXME This will make sense when all controllers are in one file (like task.py),Yes,Design,DS Configuration,Other,26394,38,8,309,34,8,267,-42,233,-4,26394,0,Other,DS Configuration
+aaebbccje,Application,Calysto/conx,conx/__init__.py,FIXME: can I backprop error through both,Yes,Requirement,Weight Conf,Training,181004,212,43,1727,3,0,13,-1714,8,-209,181004,-43,Training,Weight Conf
+aaffafejc,Tool,DependableSystemsLab/TensorFI,TensorFI/injectFault.py,FIXME: Implement this functionality,Yes,Requirement,Data Conf,Data Pre,12950,814,188,5071,849,195,5411,340,78,35,12950,7,Data Pre,Data Conf
+aaeejjfbc,Tool,CPJKU/madmom,madmom/features/beats.py,FIXME: this is kind of hackish; but being able to simply set,Yes,Code,MCC,Modeling,6575,525,67,3578,439,55,3030,-548,92,-86,6575,-12,Modeling,MCC
+aajdcgacj,Application,jupyter/nbdime,nbdime/diffing/notebooks.py,FIXME: Use linebased diff of some types of outputs:,Yes,Requirement,Data Conf,Data Pre,14325,7,1,50,148,44,879,829,158,141,14325,43,Data Pre,Data Conf
+aajdcgebb,Application,jupyter/nbdime,nbdime/merging/generic.py,FIXME: What about the next diff entry?,Yes,Defect,MLKnow,Data Pre,14325,332,105,2452,224,90,1866,-586,5,-108,14325,-15,Data Pre,MLKnow
+aaeiefagi,Tool,IntelPython/sdc,hpat/hiframes/pd_dataframe_ext.py,index is Array type (TODO: Index obj),Yes,Requirement,Proto,Data Acq,16601,115,37,1042,1059,306,9850,8808,450,944,16601,269,Data Acq,Proto
+aaggcfjif,Application,ucam-smt/sgnmt,cam/sgnmt/blocks/vanilla_decoder.py,Initialize model (TODO: do i really need this?),Yes,Code,UMC ,Modeling,927,144,15,1100,15,3,64,-1036,10,-129,927,-12,Modeling,UMC 
+aafedbhaj,Application,lmcinnes/umap,umap/umap_.py,needed to sklearn comparability,Yes,Code,MDepend,Training,61732,800,120,4952,1087,155,6090,1138,165,287,61732,35,Training,MDepend
+aafedbhaj,Application,lmcinnes/umap,umap/umap_.py,needed to sklearn comparability,Yes,Code,MDepend,Training,61732,800,120,4952,1087,155,6090,1138,165,287,61732,35,Training,MDepend
+aaifgcjei,Tool,OpenMined/PySyft,test/torch_test.py,self.mpc_sum(3; -5) TODO: Future work: how to handle gracefully minus numbers,Yes,M&T,MLKnow,Data Pre,671967,663,54,9517,665,54,9535,18,5,2,671967,0,Data Pre,MLKnow
+aaifggehf,Tool,OpenMined/PySyft,syft/core/frameworks/torch/tensor.py,time to fix. TODO: optimize the crap out of this,Yes,Requirement,Data Conf,Modeling,671967,1746,463,13456,1763,454,13604,148,6,17,671967,-9,Modeling,Data Conf
+aahddifgi,Application,brendanhasz/probflow,src/probflow/core.py,TODO,Yes,Requirement,Data Conf,Training,3387,355,77,2114,699,237,5073,2959,48,344,3387,160,Training,Data Conf
+aadbfigaf,Application,xinshuoweng/Xinshuo_PyToolbox,xinshuo_images/python/image_processing.py,TODO,Yes,Requirement,Data Conf,Data Pre,108844,325,104,3320,290,96,3073,-247,7,-35,108844,-8,Data Pre,Data Conf
+aaibgjfcg,Tool,explosion/spaCy,spacy/training/pretrain.py,TODO,Yes,Requirement,HP Conf,Modeling,202539,206,37,1587,162,26,1221,-366,457,-44,202539,-11,Modeling,HP Conf
+aahibhdeh,Tool,PyTorchLightning/pytorch-lightning,pytorch_lightning/trainer/model_hooks.py,TODO - refector this function to accept model_name; instance; parent so it makes more sense,Yes,Design,HP Conf,Training,129089,32,10,228,17,4,118,-110,315,-15,129089,-6,Training,HP Conf
+aaefhhbid,Tool,awslabs/sockeye,sockeye/transformer.py,TODO (tdomhan): Remove with next major version bump.,Yes,Code,UMC,Modeling,10501,310,34,2126,304,33,2075,-51,4,-6,10501,-1,Modeling,UMC
+aaidehfjf,Tool,plstcharles/thelper,thelper/data/pascalvoc.py,TODO : gt maps are not currently transformed! (need refact w\/ dict keys),Yes,Defect,Data Conf,Data Pre,1982,243,38,1936,272,74,2166,230,120,29,1982,36,Data Pre,Data Conf
+aajbfefjj,Application,Drakkar-Software/OctoBot,trading/trader/trades_manager.py,TODO : market value,Yes,Requirement,Data Conf,Data Pre,156108,71,16,458,78,18,510,52,4,7,156108,2,Data Pre,Data Conf
+aadcagfcc,Application,mpkuse/cartwheel_train,CustomNets.py,TODO : removal,Yes,Code,UMC,Data Acq,10730,338,47,3760,207,39,2393,-1367,8,-131,10730,-8,Data Acq,UMC
+aagaagfeh,Application,Merck/deepbgc,deepbgc/output/antismash_json.py,TODO add meta info from all detectors?,Yes,,Data Conf,Other,26579,71,14,479,73,15,510,31,3,2,26579,1,Other,Data Conf
+aahiihjjg,Tool,kengz/SLM-Lab,slm_lab/agent/algorithm/actor_critic.py,TODO add method in net_util,Yes,Requirement,Proto,Training,4278,257,41,1639,259,42,1620,-19,3,2,4278,1,Training,Proto
+aahiiegaf,Tool,kengz/SLM-Lab,slm_lab/env/__init__.py,TODO anticipate multi-agents for AEB space,Yes,Requirement,DS Configuration,Data Acq,4278,95,17,475,145,29,922,447,10,50,4278,12,Data Acq,DS Configuration
+aagigfafa,Application,OpenNMT/OpenNMT-py,onmt/decoders/decoder.py,TODO change the way attns is returned dict => list or tuple (onnx),Yes,Requirement,Data Conf,Training,316803,268,39,1474,273,41,1477,3,199,5,316803,2,Training,Data Conf
+aaaiefadd,Application,PratikBarhate/question-classification,qc/dataprep/feature_stack.py,TODO check results after standardizing num ft once a ml algorithm is ready to test,Yes,M&T,MDepend,Data Acq,60000,11,1,110,13,1,185,75,5,2,60000,0,Data Acq,MDepend
+aafciifib,Tool,DigitalSlideArchive/HistomicsTK,server/docker_resource.py,TODO check the local cache and cloud for different images of same name,Yes,,Data Conf,Other,129194,190,50,1127,177,38,1140,13,157,-13,129194,-12,Other,Data Conf
+aafehiefj,Application,aleju/imgaug,imgaug/augmentables/bbs.py,TODO convert this to x\/y params?,Yes,Requirement,Data Conf,Data Pre,28618,434,102,2948,625,138,4386,1438,1347,191,28618,36,Data Pre,Data Conf
+aahiifcef,Tool,kengz/SLM-Lab,slm_lab/agent/__init__.py,TODO ensure submethods return np.nan for loss or explore_var instead of None,Yes,,CDT,Training,4278,266,61,1976,283,61,2045,69,14,17,4278,0,Training,CDT
+aaacggdfb,Application,GilesStrong/lumin,lumin/nn/interpretation/features.py,TODO extend to work over matrix data,Yes,Requirement,MLInter,Modeling,155681,121,19,981,121,19,1000,19,192,0,155681,0,Modeling,MLInter
+aagdffgjh,Application,WMD-group/SMACT,smact/builder.py,TODO Figure out how to distinguish oxidation states,Yes,Requirement,MLKnow,Data Pre,11692,98,24,945,113,31,1083,138,3,15,11692,7,Data Pre,MLKnow
+aahddgbgb,Application,astier/model-free-episodic-control,mfec/utils.py,TODO json?,Yes,Requirement,MLKnow,Data Pre,48873,38,7,277,67,9,472,195,46,29,48873,2,Data Pre,MLKnow
+aafchbaid,Tool,Rostlab/nalaf,nala/features/tmvar.py,"TODO last token include: \""&& $last_token[...]\""",Yes,Requirement,Data Conf,Data Pre,33566,121,46,944,140,52,1016,72,12,19,33566,6,Data Pre,Data Conf
+aafdjgjfa,Application,shenweichen/DeepCTR,deepctr/models/nfm.py,todo not support dense,Yes,Requirement,UMC,Modeling,7683,54,1,304,55,1,314,10,3,1,7683,0,Modeling,UMC
+aadfjfbei,Application,pyro-ppl/funsor,funsor/tensor.py,TODO Promote this to a Funsor subclass.,Yes,Design,MCR,Data Acq,2729,853,232,7103,845,232,7080,-23,50,-8,2729,0,Data Acq,MCR
+aafhghged,Application,mdangschat/ctc-asr,python/s_input.py,TODO remove,Yes,Code,UMC,Data Acq,57773,99,9,818,101,9,869,51,16,2,57773,0,Data Acq,UMC
+aagaceabd,Application,SimGus/Chatette,src/Generator.py,TODO remove this,Yes,Code,UMC ,Data Acq,16880,267,76,1546,41,4,180,-1366,76,-226,16880,-72,Data Acq,UMC 
+aajceeeid,Application,dipy/dipy,dipy/segment/bundles.py,TODO replace with Streamlines,Yes,Requirement,CDT,Data Pre,72099,312,49,1938,308,47,1762,-176,13,-4,72099,-2,Data Pre,CDT
+aaahgiacg,Tool,gunthercox/ChatterBot,chatterbot/algorithms/engram.py,TODO Search the web or use other algorithms,Yes,,MLKnow,Data Pre,4352,22,8,125,29,9,173,48,8,7,4352,1,Data Pre,MLKnow
+aajgdiheg,Application,mne-tools/mne-python,mne/io/kit/kit.py,TODO stim channel exclusion,Yes,,Data Conf,Data Pre,158367,579,76,4207,578,75,4180,-27,3,-1,158367,-1,Data Pre,Data Conf
+aaifjjccj,Tool,OpenMined/PySyft,syft/workers/base.py,TODO this code is currently necessary for the async_fit method in websocket_client.py,Yes,,HP Conf,Training,671967,791,135,3530,683,120,2992,-538,226,-108,671967,-15,Training,HP Conf
+aadfjffba,Application,pyro-ppl/funsor,funsor/domains.py,TODO this is too general; register all ops,Yes,Requirement,Proto,Data Acq,2729,223,59,1545,264,83,1874,329,12,41,2729,24,Data Acq,Proto
+aaehaifef,Tool,inspirehep/magpie,magpie/__init__.py,TODO this vector is very sparse; we can make it more memory efficient,Yes,Requirement,DS Configuration,Training,95373,219,33,1674,1,0,10,-1664,3,-218,95373,-33,Training,DS Configuration
+aaecjdbfd,Tool,openml/openml-python,openml/flows/flow.py,TODO update these - the sklearn transformation class should be able,Yes,Code,CDT,Data Pre,199894,82,9,438,93,14,518,80,5,11,199894,5,Data Pre,CDT
+aahcgeaed,Application,ludwig-ai/ludwig,ludwig/data/preprocessing.py,TODO validation_split is not used,Yes,Code,UMC ,Data Pre,34140,641,73,2693,640,73,2689,-4,11,-1,34140,0,Data Pre,UMC 
+aaegacgid,Tool,optuna/optuna,optuna/pruners/hyperband.py,TODO(crcrpar): Improve resource computation\/allocation algorithm.,Yes,Requirement,DS Configuration,Data Pre,17735,109,14,526,173,15,647,121,1212,64,17735,1,Data Pre,DS Configuration
+aaiibahhd,Tool,ray-project/ray,rllib/models/tf/__init__.py,TODO(sven): Add once ModelV1 is deprecated and we no longer cause circular,Yes,Code,MDepend,Modeling,364936,0,0,0,11,0,61,61,186,11,364936,0,Modeling,MDepend
+aadghfgba,Application,pescadores/pescador,pescador.py,TODO:   2014-07-10 16:38:27 by Brian McFee <brm2132@columbia.edu>,Yes,Design,MCR,Modeling,483,173,47,1137,173,47,1137,0,3,0,483,0,Modeling,MCR
+aabgdbaje,Application,rmalav15/Super-SloMo,data_loader.py,TODO: add backward images also.,Yes,,Data Conf,Data Acq,29943,99,29,806,150,39,1278,472,5,51,29943,10,Data Acq,Data Conf
+aaegfadac,Tool,explosion/thinc,thinc/neural/_classes/affine.py,TODO: Add toggle for the LSUV init. It seems not always better!,Yes,Defect,Layer Conf,Modeling,11048,54,11,462,58,12,493,31,407,4,11048,1,Modeling,Layer Conf
+aaicfaced,Tool,scikit-learn/scikit-learn,sklearn/random_projection.py,TODO: avoid conversion of sparse matrices to CSR by adding support for,Yes,Requirement,MLKnow,Data Pre,154578,226,25,940,200,18,711,-229,15,-26,154578,-7,Data Pre,MLKnow
+aaffdcfdh,Tool,IGITUGraz/L2L,bin/ltl-fun-gs.py,TODO: Change the optimizer to the appropriate Optimizer class,Yes,Code,HP Conf,Training,7615,58,1,379,66,2,457,78,13,8,7615,1,Training,HP Conf
+aaeigccaj,Tool,IntelPython/sdc,sdc/datatypes/hpat_pandas_series_rolling_functions.py,TODO: check `other` is Series after a circular import of SeriesType fixed,Yes,M&T,MDepend,Data Pre,16601,385,57,1895,578,98,3284,1389,145,193,16601,41,Data Pre,MDepend
+aahgfihag,Tool,yzhao062/pyod,pyod/models/base.py,TODO: clean up these initialization,Yes,Code,MCC,Modeling,39503,71,12,540,83,13,570,30,8,12,39503,1,Modeling,MCC
+aagbjbdaa,Application,maximecb/gym-miniworld,gym_miniworld/miniworld.py,TODO: compute signed distance between walls,Yes,Requirement,Data Conf,Data Pre,153212,609,85,3933,655,89,4304,371,3,46,153212,4,Data Pre,Data Conf
+aadgfccbh,Application,sorgerlab/indra,indra/literature/s3_client.py,TODO: Currently we don't look at source text; but we may want to,Yes,Requirement,Data Conf,Data Acq,341519,213,52,1354,207,52,1318,-36,6,-6,341519,0,Data Acq,Data Conf
+aaeieejja,Tool,IntelPython/sdc,hpat/compiler.py,TODO: dataframe pass needed?,Yes,Requirement,MLKnow,Data Pre,16601,127,23,906,120,24,835,-71,397,-7,16601,1,Data Pre,MLKnow
+aagejejha,Application,nengo/nengo-dl,nengo_dl/tensor_graph.py,TODO: don't make these a constant initializer because we,Yes,Requirement,DS Configuration,Other,79603,584,147,4279,610,158,4534,255,7,26,79603,11,Other,DS Configuration
+aaeidieej,Tool,IntelPython/sdc,hpat/hiframes_join.py,TODO: extend to other key types,Yes,Requirement,CDT,Data Acq,16601,217,53,2130,694,199,5774,3644,1227,477,16601,146,Data Acq,CDT
+aadgfdibb,Application,sorgerlab/indra,indra/sources/ndex_cx/processor.py,TODO: handle other participant types,Yes,Requirement,MCR,Data Acq,341519,182,52,1210,73,17,484,-726,4,-109,341519,-35,Data Acq,MCR
+aaibihacc,Tool,scikit-learn/scikit-learn,scikits/learn/glm.py,TODO: I believe this is not really much used,Yes,Code,UMC,Modeling,154578,486,67,3829,528,69,4233,404,111,42,154578,2,Modeling,UMC
+aaegihffd,Tool,chartbeat-labs/textacy,textacy/lang_utils.py,"TODO: identify the \""best\"" language detector available for OSS python",Yes,,MLKnow,Data Pre,32964,32,4,118,80,12,471,353,59,48,32964,8,Data Pre,MLKnow
+aagaghfef,Application,araffin/srl-zoo,models/models.py,TODO: implement residual connection,Yes,Requirement,Layer Conf,Training,4728,197,19,1398,290,31,2145,747,80,93,4728,12,Training,Layer Conf
+aaejcccgj,Tool,kornia/kornia,kornia/filters/blur.py,TODO: In terms of functional API; there should not be any initialization of an nn.Module.,Yes,Code,UMC,Data Pre,76650,65,5,255,94,5,248,-7,156,29,76650,0,Data Pre,UMC
+aaeieedge,Tool,IntelPython/sdc,hpat/hiframes/boxing.py,TODO: is incref required?,Yes,,MLKnow,Data Pre,16601,278,62,2590,283,54,2632,42,131,5,16601,-8,Data Pre,MLKnow
+aagdaagij,Application,drivendataorg/zamba,zamba/models/cnnensemble/src/single_frame_cnn.py,TODO: it's worth to switch back to the correct preprocess_input when InceptionResNetV2 model is re-trained,Yes,Code,MDepend,Data Pre,74844,598,114,4909,587,108,4867,-42,10,-11,74844,-6,Data Pre,MDepend
+aaefagbgc,Tool,CPJKU/madmom,madmom/audio/signal.py,TODO: make the dtype configurable; see __init__(),Yes,Design,MCM,Data Acq,6575,826,154,3644,822,153,3614,-30,5,-4,6575,-1,Data Acq,MCM
+aahidaegb,Tool,PyTorchLightning/pytorch-lightning,pytorch_lightning/trainer/connectors/accelerator_connector.py,TODO: maybe introduce a DefaultEnvironment?,Yes,,MLKnow,Training,129089,462,163,2648,478,169,2683,35,80,16,129089,6,Training,MLKnow
+aahgegeef,Tool,BrikerMan/Kashgari,kashgari/tasks/classification/models.py,TODO: maybe refactor this,Yes,Code,MCM,Modeling,15043,661,10,3880,657,9,3840,-40,6,-4,15043,-1,Modeling,MCM
+aagafeacd,Application,henrysky/astroNN,astroNN/shared/nn_tools.py,TODO: Model Precision,Yes,Requirement,Data Conf,Prediction,185605,132,34,1263,75,26,371,-892,255,-57,185605,-8,Prediction,Data Conf
+aaidfjifi,Tool,weiHelloWorld/accelerated_sampling_with_autoencoder,MD_simulation_on_alanine_dipeptide/current_work/src/sample_with_classifier.py,TODO: modify this later,Yes,Code,Data Conf,Data Pre,9749,98,18,931,145,36,1356,425,11,47,9749,18,Data Pre,Data Conf
+aaegfjdjb,Tool,explosion/thinc,thinc/layers/staticvectors.py,TODO: more specific types?,Yes,Requirement,CDT,Other,11048,47,8,507,47,8,518,11,8,0,11048,0,Other,CDT
+aaebhhdjf,Application,HewlettPackard/dlcookbook-dlbs,python/pytorch_benchmarks/dataset_factory.py,TODO: Place tensors into GPU memory. This will require rewriting,Yes,Design,DS Configuration,Data Acq,14034,132,22,969,238,44,1478,509,65,106,14034,22,Data Acq,DS Configuration
+aahcigdjj,Application,pyro-ppl/pyro,pyro/infer/search.py,TODO: put in infrastructure to fold over trace as it's built.,Yes,Requirement,Data Conf,Data Pre,97384,115,26,703,97,22,580,-123,31,-18,97384,-4,Data Pre,Data Conf
+aaeffajfh,Tool,Accenture/AmpliGraph,ampligraph/latent_features/models.py,TODO: Remove corruption entities,Yes,Code,UMC,Evaluation,31784,1755,282,12281,1836,290,13250,969,10,81,31784,8,Evaluation,UMC
+aaefbgdbg,Tool,nyu-mll/jiant,src/tasks/tasks.py,TODO: remove dummy \/ debug tasks,Yes,Code,UMC,Data Acq,4532,1459,282,13104,1005,167,9178,-3926,5,-454,4532,-115,Data Acq,UMC
+aajdbjejb,Application,automagica/automagica,automagica/gui/graphs.py,TODO: remove hard-coded sizes and make relative to parent?,Yes,Code,MCM,Other,88529,1207,121,9114,1098,125,8390,-724,78,-109,88529,4,Other,MCM
+aahibibgj,Tool,PyTorchLightning/pytorch-lightning,pytorch_lightning/callbacks/model_checkpoint.py,TODO: remove when dict results are deprecated,Yes,Code,UMC,Evaluation,129089,309,65,1524,369,66,1670,146,257,60,129089,1,Evaluation,UMC
+aaicjgced,Tool,scikit-learn/scikit-learn,sklearn/model_selection/_search.py,TODO: replace by a dict in 0.21,Yes,Requirement,DS Configuration,Data Pre,154578,1052,89,2756,1098,92,2866,110,1000,46,154578,3,Data Pre,DS Configuration
+aaefecjfa,Tool,scikit-learn-contrib/metric-learn,metric_learn/nca.py,TODO: replace init=None by init='auto' in v0.6.0 and remove the warning,Yes,Code,UMC,Training,12597,124,10,774,187,8,708,-66,51,63,12597,-2,Training,UMC
+aaiihdfjc,Tool,NervanaSystems/neon,neon/layers/layer.py,TODO: Set up self.batch_sum if self.bsum,Yes,Requirement,Layer Conf,Modeling,9003,710,168,5600,709,175,5542,-58,4,-1,9003,7,Modeling,Layer Conf
+aagdjigjj,Application,hackingmaterials/automatminer,matbench/pipeline.py,todo: should save tpot model here,Yes,Requirement,DS Configuration,Training,53123,66,6,479,51,3,80,-399,97,-15,53123,-3,Training,DS Configuration
+aahcjejhi,Application,pyro-ppl/pyro,pyro/distributions/planar.py,TODO: Simplify following line once using multivariate base distributions for multivariate flows,Yes,Code,MCC,Data Pre,97384,85,9,478,74,6,388,-90,139,-11,97384,-3,Data Pre,MCC
+aagaahfid,Application,Neuraxio/Neuraxle,neuraxle/metaopt/random.py,TODO: skip on error???,Yes,Defect,MLKnow,Training,8562,121,20,758,295,43,1478,720,290,174,8562,23,Training,MLKnow
+aagfjeihb,Application,NRCan/geo-deep-learning,utils/layersmodules.py,TODO: something if deep 9,Yes,Requirement,Layer Conf,Training,109156,37,2,304,51,6,440,136,5,14,109156,4,Training,Layer Conf
+aaeacgjbc,Application,mozilla/bugbug,scripts/commit_classifier.py,"TODO: The \""\"" choice can be removed when all users have been updated to pass a correct phabricator_deployment.",Yes,Code,UMC ,Other,7687,579,98,3476,611,106,3613,137,28,32,7687,8,Other,UMC 
+aadejjjdj,Application,comtravo/ctparse,ctparse/partial_parse.py,TODO: the second element of the rule is not being used,Yes,Requirement,Data Conf,Data Pre,3088,115,30,812,104,28,717,-95,24,-11,3088,-2,Data Pre,Data Conf
+aaiheabif,Application,flairNLP/flair,flair/models/sequence_tagger_model.py,TODO: this can only be removed once the implementations of word_dropout and locked_dropout have a batch_first mode,Yes,Code,UMC,Modeling,111490,661,96,4391,715,109,4732,341,259,54,111490,13,Modeling,UMC
+aafdiegjf,Application,pierluigiferrari/ssd_keras,ssd_box_encode_decode_utils.py,TODO: This matching process is slow. Make it faster; avoid loops where possible.,Yes,Requirement,Proto,Data Pre,20185,204,33,2323,190,30,2095,-228,13,-14,20185,-3,Data Pre,Proto
+aaibgjddj,Tool,explosion/spaCy,spacy/cli/train.py,TODO: This might not be called corpora,Yes,Code,MCC,Training,202539,,,,325,78,2260,2260,5,325,202539,78,Training,MCC
+aagdjibjh,Application,hackingmaterials/automatminer,matbench/preprocess.py,TODO: This might not work with numpy types; haven't checked - AD,Yes,M&T,MLKnow,Data Pre,53123,107,26,775,102,24,767,-8,6,-5,53123,-2,Data Pre,MLKnow
+aahgffjcf,Tool,PetrochukM/PyTorch-NLP,lib/checkpoint.py,TODO: This should be recusive looking for any module with flatten_parameters,Yes,,Weight Conf,Modeling,13169,42,13,343,40,12,326,-17,9,-2,13169,-1,Modeling,Weight Conf
+aaibihdci,Tool,scikit-learn/scikit-learn,scikits/learn/datasets/mlcomp.py,TODO: use joblib.Parallel or multiprocessing to parallelize the following,Yes,Requirement,DS Configuration,Data Acq,154578,69,19,565,53,16,405,-160,750,-16,154578,-3,Data Acq,DS Configuration
+aaefhaief,Tool,awslabs/sockeye,sockeye/inference.py,TODO: we currently exploit a bug in the implementation of unravel_index to not require knowing the first shape,Yes,Defect,MDepend,Training,10501,1813,248,11952,923,141,5186,-6766,93,-890,10501,-107,Training,MDepend
+aahicagej,Tool,PyTorchLightning/pytorch-lightning,pytorch_lightning/accelerators/ddp_cpu_spawn_backend.py,todo; pass also best score,Yes,Design,Weight Conf,Training,129089,43,10,347,7,2,38,-309,4,-36,129089,-8,Training,Weight Conf
+aahicaeda,Tool,PyTorchLightning/pytorch-lightning,pytorch_lightning/accelerators/ddp_spawn_backend.py,todo; pass complete checkpoint as state dictionary,Yes,Requirement,Data Conf,Training,129089,129,34,1098,88,20,764,-334,7,-41,129089,-14,Training,Data Conf
+aajgefiaf,Application,mne-tools/mne-python,mne/io/ctf/trans.py,",XXX de-duplicate this with code from Montage somewhere?,Yes,Design,DFEC,,Data Pre
+
+aajficacj,Application,probcomp/bayeslite,src/metamodels/cgpm_metamodel.py,https://github.com/probcomp/bayeslite/commit/859b4b9e5741ab58286ea0621cd3cd40b8455fe7,STILL_EXISTS,XXX Default number of samples drawn from my arse.,Yes,Code,Data Conf,,Data Pre
+
+aajfiebah,Application,probcomp/bayeslite,src/compiler.py,https://github.com/probcomp/bayeslite/commit/13e96f1f8e692dbb81aa8c305641264ce3050646,STILL_EXISTS,XXX Disable SimulateModels without CreateTab,Yes,Code,UMC,,Data Acq
+
+aajgefjja,Application,mne-tools/mne-python,mne/viz/_3d.py,https://github.com/mne-tools/mne-python/commit/7c51e252cc90602c91be6df0763baab62083d159,https://github.com/mne-tools/mne-python/commit/9ac6547284bbd73b4c18d7d7031042585388005c,XXX do projections here if necessary,Yes,Requirement,,,Other
+
+aajfiegif,Application,probcomp/bayeslite,src/bqlvtab.py,https://github.com/probcomp/bayeslite/commit/27e21b9824512fb4697b95b2f2b65fb1b6fb45bd,STILL_EXISTS,XXX Expose this API better from bqlfn.,Yes,Design,,,Data Pre
+
+aajghfhbg,Application,mne-tools/mne-python,mne/viz/_figure.py,https://github.com/mne-tools/mne-python/commit/49ac85b4b0c95dc1033e217983c495f180479e58,STILL_EXISTS,XXX gs = fig.add_gridspec(15; 1),Yes,Code,UMC ,,Other
+
+aageebhag,Application,textgain/grasp,grasp.py,https://github.com/textgain/grasp/commit/15e28ab3b62ea81343dd2297a6ae36cd0849a599,STILL_EXISTS,XXX ignores weight & type,Yes,Requirement,,,Other
+
+aajggjjdf,Application,mne-tools/mne-python,mne/minimum_norm/_eloreta.py,https://github.com/mne-tools/mne-python/commit/afab0e1e9122997147008437aa4f5aa0c74a57cc,STILL_EXISTS,XXX in theory we should set inv['source_cov'] properly.,Yes,Defect,Data Conf,MLKnow,Data Pre
+
+aajgcfgdg,Application,mne-tools/mne-python,mne/decoding/time_gen.py,https://github.com/mne-tools/mne-python/commit/e1d09e7463f4fdb54074bc1008222354f3a377ab,https://github.com/mne-tools/mne-python/commit/8218dc46557f277b22a842b4575b8c54241d2105,XXX JRK: Should this test whether test_times if a DecodingTime,Yes,M&T,MLKnow,,Prediction
+
+aahjfbdfa,Tool,ryfeus/gcf-packs,pandas_numpy/sources/setuptools/dist.py,https://github.com/ryfeus/gcf-packs/commit/255a05a5980efb8b096c283d79872d0695886161,STILL_EXISTS,XXX may convert to set here when we can rely on set being builtin,Yes,Code,,,Other
+
+aahfibidg,Tool,RaRe-Technologies/gensim,gensim/models/ldamodel.py,https://github.com/RaRe-Technologies/gensim/commit/f0310f61338949bed4ea89e00c753f3c696d24cc,https://github.com/RaRe-Technologies/gensim/commit/a40717917a7d841cd192996408b84cdd59a816ca,XXX might possibly be slow solution; but every worker needs reseted LDA model for every iteration,Yes,Defect,MLKnow,,Training
+
+aajghfgdd,Application,mne-tools/mne-python,mne/viz/_figure.py,https://github.com/mne-tools/mne-python/commit/49ac85b4b0c95dc1033e217983c495f180479e58,STILL_EXISTS,XXX MPL. Probably needs a refactor of plot_sensors() to work cleanly,Yes,Design,,,Other
+
+aaicfehca,Tool,scikit-learn/scikit-learn,sklearn/decomposition/tests/test_truncated_svd.py,https://github.com/scikit-learn/scikit-learn/commit/cacb14ef0a5605e10e4c476061774c706aa1ad63,STILL_EXISTS,XXX newer versions of SciPy have scipy.sparse.rand for this.,Yes,Code,,,Evaluation
+
+aaeieahii,Tool,IntelPython/sdc,hpat/distributed_api.py,https://github.com/IntelPython/sdc/commit/04e0c99e7791eada1b2d0c517e8261fd81cfd9a6,STILL_EXISTS,XXX offset type is uint32,Yes,Requirement,PODT,,Data Acq
+
+aaeiedacj,Tool,IntelPython/sdc,hpat/hiframes.py,https://github.com/IntelPython/sdc/commit/ffd198eb22dfbe8a2dbb395cb468aaff7593f014,STILL_EXISTS,XXX pandas only accepts variable window cov\/corr,Yes,Defect,MDepend,CDT,Data Pre
+
+aajcadhbi,Application,dipy/dipy,dipy/sims/voxel.py,https://github.com/dipy/dipy/commit/b72a036cc81370050f35deb687e41c631fcb6b12,https://github.com/dipy/dipy/commit/07cc05e233b45d78435639b018d48a373af9e533,XXX Refactor to calculate the Rician SNR:,Yes,Code,,,Data Pre
+
+aajgdidia,Application,mne-tools/mne-python,mne/preprocessing/maxwell.py,https://github.com/mne-tools/mne-python/commit/6712b5baaaddc729dbc5157bcf0a350377612acb,STILL_EXISTS,XXX Remove,Yes,Code,UMC,,Modeling
+
+aajfigjji,Application,probcomp/bayeslite,src/metamodels/crosscat.py,https://github.com/probcomp/bayeslite/commit/499d14087f189381daf0afd0e9911b2fe40b7633,STILL_EXISTS,XXX Return a singleton list; since self._crosscat.similarity,Yes,Requirement,,,Data Pre
+
+aajghfcje,Application,mne-tools/mne-python,mne/preprocessing/tests/test_ica.py,https://github.com/mne-tools/mne-python/commit/47ce37e3cacd63fed04ca4e078dba60f0330f161,https://github.com/mne-tools/mne-python/commit/91473147e57464173dedb00ce20f3d5aefd883bd,XXX this fails: or n_pca_components == 8:,Yes,Defect,,,Modeling
+
+aajfibdif,Application,probcomp/bayeslite,src/bqlfn.py,https://github.com/probcomp/bayeslite/commit/9e5cf64a877986a44c26dd45fc638c51c19cfbca,STILL_EXISTS,XXX This is silly.  We should return log densities; not densities.,Yes,Requirement,MLRelia,,Evaluation
+
+aajggbgdc,Application,mne-tools/mne-python,mne/source_estimate.py,https://github.com/mne-tools/mne-python/commit/376c2bdc067636c38488b1f7e3502d1b4e558efc,STILL_EXISTS,XXX this should be supported someday,Yes,Requirement,,,Data Acq
+
+aajgfdhgh,Application,mne-tools/mne-python,mne/viz/raw.py,https://github.com/mne-tools/mne-python/commit/53506d1d5547a5dbed8e30d9927232a58ced7a81,https://github.com/mne-tools/mne-python/commit/3b1704f581798cf71a88cbb5c352dc8beefa20ca,XXX when it's refactored; Report._render_raw will need to be updated,Yes,Code,,,Other
+
+aajghfhbf,Application,mne-tools/mne-python,mne/viz/_figure.py,https://github.com/mne-tools/mne-python/commit/49ac85b4b0c95dc1033e217983c495f180479e58,STILL_EXISTS,XXX when matplotlib 3.3 is min version; replace this with,Yes,Code,MDepend,,Other
+
+aajfhhbig,Application,probcomp/bayeslite,src/read_csv.py,https://github.com/probcomp/bayeslite/commit/3473fcacb571f3e243c0ae48774b535437423ee9,STILL_EXISTS,XXX Would be nice if we could prepare this statement before,Yes,Requirement,DS Conf,,Data Acq
+
+aaicicaia,Tool,scikit-learn/scikit-learn,sklearn/gaussian_process/tests/test_gpr.py,https://github.com/scikit-learn/scikit-learn/commit/cb7c4243e8010827831526ee9757d88b44ff15ef,https://github.com/scikit-learn/scikit-learn/commit/555bb11554158c04a7c0956fc88e23235e280e29,XXX: Check why only 2 digits,Yes,M&T,,,Training
+
+aaeidjach,Tool,IntelPython/sdc,hpat/pd_timestamp_ext.py,https://github.com/IntelPython/sdc/commit/2b201a664e5fec7c122293426bb81a50084ac390,STILL_EXISTS,XXX: code for timestamp series getitem in regular Numba,Yes,Code,,,Data Acq
+
+aaicgfbda,Tool,scikit-learn/scikit-learn,sklearn/linear_model/base.py,https://github.com/scikit-learn/scikit-learn/commit/a786e12ace3ef0c7e77cea93edd5e316bed6f93c,https://github.com/scikit-learn/scikit-learn/commit/eec7649236d5216380d05916bb7f6aa3b2fc5508,XXX: currently scaled to variance=n_samples,Yes,Code,Data Conf,,Data Pre
+
+aaeidjejd,Tool,IntelPython/sdc,hpat/hiframes.py,https://github.com/IntelPython/sdc/commit/133efc8f9cf1e182c273204df0e0fc44a3480955,STILL_EXISTS,XXX: does control flow affect type inference in Numba?,Yes,,MLKnow,,Data Pre
+
+aagcbggid,Application,carpedm20/SPIRAL-tensorflow,envs/mnist.py,https://github.com/carpedm20/SPIRAL-tensorflow/commit/05ddfdc20c73a61cde46594bd6b7b7a2e255a44b,STILL_EXISTS,XXX: don't know which way would be the best,Yes,Code,MLKnow,Data Conf,Data Pre
+
+aajgchffb,Application,mne-tools/mne-python,mne/forward/_field_interpolation.py,https://github.com/mne-tools/mne-python/commit/2a4243b8db3accade4e2db1c1187bced5835f7e7,STILL_EXISTS,XXX: hack; don't ask why,Yes,Code,,,Data Pre
+
+aahjgeiic,Tool,ryfeus/gcf-packs,tensorflow2.0/source/numpy/f2py/crackfortran.py,https://github.com/ryfeus/gcf-packs/commit/44d36f9e5045fd859ee188d74dc31f3921ad4796,STILL_EXISTS,XXX: How to catch dependence cycles correctly?,Yes,Requirement,MDepend,,Other
+
+aaibicege,Tool,scikit-learn/scikit-learn,scikits/learn/pyem/gauss_mix.py,https://github.com/scikit-learn/scikit-learn/commit/b4b152793569d8f7d4e4bd47015d2aefb1738219,STILL_EXISTS,XXX: how to find \""good\"" values for level ?""",Yes,,MLKnow,Data Pre,158367,126,41,1566,85,40,755,-811,2520,-41,158367,-1,Data Pre,MLKnow
+aaeachbce,Application,mozilla/bugbug,scripts/test_scheduling_history_retriever.py,XXX: We re-cache now just to make sure all items get a mozci version.,Yes,,DS Configuration,Data Acq,7687,288,64,1621,285,62,1577,-44,13,-3,7687,-2,Data Acq,DS Configuration
+aaicaiffi,Tool,scikit-learn/scikit-learn,scikits/learn/decomposition/sparse_pca.py,XXX: where should this be?,Yes,,MLKnow,Other,154578,189,37,1418,241,40,1663,245,113,52,154578,3,Other,MLKnow

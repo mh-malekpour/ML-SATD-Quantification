@@ -1,0 +1,55 @@
+ML TD Type,ML Pipeline Stage,Weighted Average
+MCM,Prediction,0.545593876
+Data Conf,Modeling,0.444607724
+MDepend,Training,0.2888025143333333
+UMC,Evaluation,0.282572339
+MCM,Other,0.274425526
+CDT,Data Acq,0.262273735
+UMC,Data Acq,0.23187792566666665
+DS Configuration,Data Pre,0.20441674899999998
+Proto,Data Acq,0.2041404945
+MCR,Data Acq,0.1968037955
+MCM,Data Acq,0.185640324
+MDepend,Data Pre,0.1662729655
+UMC ,Other,0.144504815
+Data Conf,Evaluation,0.144220534
+MDepend,Modeling,0.140099863
+MLKnow,Training,0.1400917115
+Layer Conf,Modeling,0.136156486
+UMC ,Data Pre,0.134064865
+HP Conf,Modeling,0.134059203
+HP Conf,Training,0.12566297433333332
+Data Conf,Training,0.11664503066666666
+Data Conf,Other,0.1163314805
+DS Configuration,Other,0.11360274699999999
+UMC,Modeling,0.10908366075
+MCC,Data Pre,0.106574299
+Data Conf,Data Acq,0.10644097699999999
+Data Conf,Data Pre,0.10630169723076924
+Proto,Data Pre,0.105755466
+MLKnow,Data Pre,0.10526493408333333
+MCM,Modeling,0.104491615
+UMC ,Data Acq,0.095246733
+DS Configuration,Data Acq,0.09441168750000001
+Weight Conf,Training,0.0924161535
+CDT,Training,0.091307537
+MCC,Training,0.090111464
+MCC,Modeling,0.0885097525
+CDT,Data Pre,0.083824306
+DS Configuration,Training,0.0825415695
+Data Conf,Prediction,0.080111052
+MLKnow,Other,0.077918321
+Proto,Training,0.069929245
+UMC,Data Pre,0.065106568
+UMC ,Modeling,0.064737899
+MCR,Modeling,0.05949093
+MLInter,Modeling,0.055852075
+Layer Conf,Training,0.0518800865
+UMC,Training,0.048750539
+CDT,Other,0.044037012
+MCR,Training,0.0420092725
+Proto,Modeling,0.0366202
+MLKnow,Modeling,0.031851194
+MLKnow,Evaluation,0.028217841
+Weight Conf,Modeling,0.025724916
+MDepend,Data Acq,0.009724931
