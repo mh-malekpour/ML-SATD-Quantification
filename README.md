@@ -1,4 +1,5 @@
 # Quantifying Interest of Self-Admitted Technical Debt in Machine Learning Projects
+This is the final project for the SOEN-691: Engineering AI-based Software Systems course.
 
 ## Abstract
 Technical debt (TD) in software development represents the long-term costs incurred from short-term solutions and workarounds. Self-Admitted Technical Debt (SATD) refers to situations where developers acknowledge the creation of TD through source code comments. This research focuses on identifying and quantifying the types of TD in Machine Learning (ML) applications that present greater resolution challenges. We utilize software engineering metrics to evaluate the effort required to resolve SATDs in ML projects, shedding light on prioritization needs in ML development.
