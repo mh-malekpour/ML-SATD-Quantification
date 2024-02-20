@@ -28,4 +28,4 @@ This study highlights the importance of addressing technical debt related to Mod
 - Mayra Ruiz (m_ruizro@live.concordia.ca) - Concordia University
 - Rachna Raj (r_rachna@live.concordia.ca) - Concordia University
 - Mohammedhossein Malekpour (mohammadhossein.malekpour@polymtl.ca) - Polytechnique Montreal
-- Adenkule Ajebode (ajibode.a@queensu.ca) - Queens University
+- Ajibode Adekunle (ajibode.a@queensu.ca) - Queens University
